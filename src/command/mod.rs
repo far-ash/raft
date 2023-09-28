@@ -5,7 +5,7 @@ use clap::{Parser, Subcommand};
 use {build::BuildArgs, init::InitArgs};
 
 #[derive(Debug, Parser)]
-#[command(name = "Raft", author, version, about, long_about = "he")]
+#[command(name = "Raft", author, version, about, long_about = None)]
 pub struct Cli {
     #[clap(subcommand)]
     pub command: Command,
