@@ -13,7 +13,7 @@ pub struct Cli {
 
 #[derive(Debug, Subcommand)]
 pub enum Command {
-    /// Initializes a C (Raft) project in the current directory or the specified path.
+    /// Initializes a C project with Raft in the current directory or the specified path.
     ///
     /// The `Raft init` command is used to set up a new Raft project. If no path is provided,
     /// it initializes the project in the current working directory. Alternatively, you can specify
