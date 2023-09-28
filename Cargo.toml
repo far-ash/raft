@@ -1,0 +1,15 @@
+[package]
+name = "raft"
+version = "0.2.0"
+edition = "2021"
+authors = ["Farzin MA. <farzinashraf1000@gmail.com>"]
+description = "Raft is a simple project manager for C"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml = "0.8.0"
+ninja = "0.0.1"
+color-print = "0.3.5"
+clap = { version = "4.4.4", features = ["derive"] }
+serde = { version = "1.0.188", features = ["derive"] }
