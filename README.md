@@ -7,7 +7,8 @@ A **CLI Build System** for **C** written in **Rust**.
 > Note: It's in the early development stage. So you can't use it _now_... I mean _yet_.
 
 Yeah, I know what you're _thinking_, like _"making a **C** Build System in **Rust**!"_. \
-Then I have only one thing to say: _"Who **cares**!"_ or _"Who even **asked**!!!_"
+Then I have only one thing to say: _"Who **cares**!"_ or _"Who even **asked**!!!_".
+No offence, I really didn't mean it.
 
 ## Commands
 
